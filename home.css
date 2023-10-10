@@ -1,0 +1,68 @@
+#title-bg{
+    width: 100%;
+    background-image: linear-gradient(to right,blue, pink);
+
+}
+#title{
+    color: #25243b;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+body{
+    background-color: #13131f;
+    margin: 0%;
+    padding:0;
+
+}
+#subt{
+    color: #25243b;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+#quote-box{
+    background-color:cadetblue ;
+    width: fit-content;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right,rgb(221, 0, 255), rgb(106, 0, 255));
+    border-radius: 10px;;
+}
+#text{
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+#author{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#buttons{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.buttonClass{
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(to right,rgb(98, 68, 220), rgb(187, 0, 255));
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: solid;
+    
+}
+.buttonClass:hover{
+    border-color: white;
+    transition: 0.3s;
+}
